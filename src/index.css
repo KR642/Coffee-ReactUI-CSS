@@ -295,7 +295,7 @@ img.banner-img {
     display: none;
   }
   .banner-main{
-    flex-direction: column-reverse;
+    padding: 5% 0;
   }
   .banner-right{
     display: none;
@@ -305,6 +305,15 @@ img.banner-img {
   }
   .buy-img img{
     width: 200px;
+  }
+  .button-new{
+    width: auto;
+  }
+  .banner-heading{
+    margin-bottom: 0;
+  }
+  h1{
+    font-size: 30px;
   }
 }
 
