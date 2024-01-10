@@ -288,12 +288,47 @@ img.banner-img {
 .footer a{
   color:#240000;
 }
+
+.mobile-nav{
+  display: none;
+}
+
+
 /* Styles for screens up to 768 pixels wide (e.g., smartphones) */
 @media only screen and (max-width: 768px) {
   /* Your responsive styles for small screens here */
   .nav-main{
-    
+    display:none;
   }
+
+  .mobile-nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+    position: relative;
+  }
+
+  .mob-menu{
+    position: absolute;
+    top: 5rem;
+    right: 0rem;
+    width: 10rem;
+    height: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #240000;
+    align-items: center;
+    border-radius: 15px;
+  }
+
+
+  .mob-menu>p>a{
+    text-decoration: none;
+    color:white !important;
+  }  
+
   .banner-main{
     padding: 5% 0;
   }

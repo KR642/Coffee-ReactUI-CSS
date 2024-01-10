@@ -6,6 +6,7 @@ import Banner from '../components/Banner'
 import Buy from '../components/Buy'
 import Reserve from '../components/Reserve'
 import Footer from '../components/Footer'
+import MobileNav from '../components/MobileNav'
 
 function App() {
   return (
@@ -13,8 +14,9 @@ function App() {
     <div className='bg-image'></div>
     <div className='root-class'>
       <div className='logo-nav'>
-      <img src={logo} className="logo" alt="logo" />
-      <Nav/>
+        <img src={logo} className="logo" alt="logo" />
+        <Nav/>
+        <MobileNav/>
       </div>
       <Banner/>
       <Buy/>
