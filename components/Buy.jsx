@@ -1,12 +1,14 @@
 import React from 'react'
 import BuyBox from './BuyBox'
 import beans from '/src/assets/beans.png'
+import top1 from '/src/assets/top1.png'
+import top2 from '/src/assets/top2.png'
 const Buy = () => {
   return (
     <>
     <div className='buy-section'>
-        <BuyBox pic = "/src/assets/top1.png" heading = "Americano" text = "100% Natural Arabica or Robusta, 30 ml cup" amount = "$2.50"/>
-        <BuyBox pic = "/src/assets/top2.png" heading = "Cappuccino" text = "Coffee 50%, milk 50%, 280ml" amount = "$2.50"/>
+        <BuyBox pic = {top1} heading = "Americano" text = "100% Natural Arabica or Robusta, 30 ml cup" amount = "$2.50"/>
+        <BuyBox pic = {top2} heading = "Cappuccino" text = "Coffee 50%, milk 50%, 280ml" amount = "$2.50"/>
         <div className='txt-box'>
           <h2>Lorem ipsum dolor sit amet</h2>
           <p>
